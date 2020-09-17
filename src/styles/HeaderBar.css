@@ -1,0 +1,9 @@
+.Header {
+	display: flex;
+	justify-content: space-between;
+	color: #fdfcfc;
+	padding: 16px;
+	font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+	text-align: left;
+	background-color: black;
+}

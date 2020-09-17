@@ -1,0 +1,28 @@
+.start-button:hover {
+	background-color: #4caf50;
+}
+
+.start-button {
+	transition-duration: 0.4s;
+	background-color: lightgreen;
+	border: transparent;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 0;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.welcome-comment {
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+	font-size: 60px;
+}
+
+.start-page-container {
+	text-align: center;
+}
