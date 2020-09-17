@@ -6,6 +6,8 @@ The questions are stored in a No-SQL db: Firebase
 
 An API call to the firebase database fetches all questions in this quiz to render.
 
+Therefore, to add new questions to the app, we only need to add question in the database. No additional JSX required.
+
 [CLICK HERE](react-quiz-app-2804c.firebaseapp.com) to view the live app.
 
 ## Quiz Start Page
