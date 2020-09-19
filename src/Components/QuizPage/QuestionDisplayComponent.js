@@ -7,7 +7,7 @@ This component also does the following:
 */
 
 import React, { Component } from 'react';
-import isEmpty from '../../utils/isEmpty';
+import isEmptyOrUndefined from '../../utils/isEmpty';
 import getResult from '../../utils/getResult';
 import QuestionIndicatorComponent from './QuestionIndicatorComponent';
 import { db } from '../../assets/Config';
@@ -54,7 +54,7 @@ class QuestionDisplayComponent extends Component {
 	displayQuestions = (questions = this.state.firebaseQuestions, currentQuestion, nextQuestion, answeredQuestions) => {
 		let { currentQuestionIndex } = this.state;
 
-		if (!isEmpty(this.state.firebaseQuestions)) {
+		if (!isEmptyOrUndefined(this.state.firebaseQuestions)) {
 			questions = this.state.firebaseQuestions;
 			currentQuestion = questions[currentQuestionIndex];
 			nextQuestion = questions[currentQuestionIndex + 1];
